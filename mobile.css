@@ -1,0 +1,395 @@
+/****Responsivo da pÃ¡gina****/
+
+@media screen and (max-width: 992px) {
+    .logo img {
+        height: 65px;
+    }
+
+    .header .navbar {justify-content: center;}
+
+    .header .others-links {margin: 10px 0;}
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        background: transparent;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .header .navbar .navbar-toggler{
+        margin-left: 5px;
+    }
+
+    .header .navbar .navbar-collapse.show {position: initial;width: 100%;}
+    
+    .nav-item {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .content-banner {
+        padding: 100px 0 50px;
+        position: relative;
+    }
+    .content-banner .conteudo h1 {
+        font-size: 28px;
+    }
+    .row>div {
+        margin-bottom: 30px;
+    }
+    .content-banner iframe {
+        height: 300px;
+    }
+    #banner {
+        height: auto;
+        margin-top: 0;
+    }
+    .wq-banner_item figure {
+        display: none;
+    }
+    .wq-banner_item figure.wq-responsivo {
+        display: block;
+    }
+    .titulo-01 h2 span {
+        font-size: 36px;
+        top: -7px;
+    }
+    .titulo-01 h2 {
+        font-size: 25px;
+    }
+    .titulo-01 p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .depoimentos-carousel-item,
+    .depoimentos-carousel {
+        width: 100%;
+        max-width: 100%;
+    }
+    .depoimentos-carousel-item {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .depoimentos-carousel-item figure img,
+    .depoimentos-carousel-item figure::before {
+        width: 100%;
+        height: auto;
+        transform: translateX(0px);
+    }
+    .depoimentos-carousel-item .conteudo h3 {
+        font-size: 25px;
+    }
+    .depoimentos-carousel-item .conteudo p,
+    .depoimentos-carousel-item .conteudo span {
+        font-size: 13px;
+    }
+    .depoimentos-carousel-item .conteudo em {
+        font-size: 10px;
+    }
+    #depoimentos,
+    #beneficios,
+    #praquem {
+        padding: 65px 0 30px;
+    }
+    .comotomar-wrapper .comotomar-item:nth-child(even) .conteudo figure img {
+        left: auto;
+        right: -40px;
+    }
+    .comotomar-wrapper .comotomar-item:nth-child(even) .conteudo .conteudo-header {
+        flex-direction: row-reverse;
+    }
+    .comotomar-wrapper .comotomar-item:nth-child(even) .conteudo .conteudo-header h2 {
+        padding-left: 0;
+        padding-right: 75px;
+        text-align: left;
+    }
+    .comotomar-item {
+        justify-content: flex-end;
+    }
+    .comotomar-item .conteudo {
+        width: 95%;
+        margin-left: auto;
+        margin-right: 25px;
+    }
+    .beneficios-item {
+        height: auto;
+    }
+    .comotomar-item .conteudo .conteudo-header h2 {
+        font-size: 18px;
+        word-break: break-all;
+    }
+    .comotomar-item .conteudo p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .praquem-item h3 {
+        font-size: 16px;
+    }
+    .efeitos {
+        position: relative !important;
+        height: 430px !important;
+        margin-bottom: 0px !important;
+    }
+    .efeitos figure:nth-child(4) {
+        left: -165px !important;
+        bottom: -130px;
+    }
+    .efeitos figure:nth-child(2) {
+        left: 32px !important;
+        max-width: 130px;
+    }
+    .efeitos figure:first-child {
+        left: 30px !important;
+        bottom: 280px !important;
+    }
+    .efeitos figure:nth-child(3) {
+        bottom: -60px !important;
+        right: -18px !important;
+    }
+    .logos>div {
+        flex-wrap: wrap;
+    }
+    #sobre-sec .conteudo h2,
+    .logos h3 {
+        font-size: 20px;
+    }
+    #sobre-sec .conteudo p,
+    .card-body p,
+    #garantia p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .planos-item .preco-prazo h4 span {
+        font-size: 20px;
+    }
+    .planos-item .preco-prazo h4 {
+        font-size: 55px;
+    }
+    .planos-item {
+        padding: 10px;
+    }
+    #compraragora,
+    #perguntas-frequentes,
+    #contato,
+    #garantia,
+    #comotomar,
+    #sobre-sec {
+        padding: 50px 0;
+    }
+    .accordion {
+        margin-bottom: 0;
+    }
+    #contato .logos {
+        margin-top: 10px;
+    }
+    .card-header h2 {
+        padding: 6px 25px 6px 12px;
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .wq-new-cta h2 {
+        font-size: 27px;
+        line-height: 1.15;
+    }
+    .depoimentos-carousel-item figure figcaption img {
+        transform: none;
+    }
+    .wq-kit h2 {
+        font-size: 29px;
+    }
+    .wq-kit {
+        padding: 35px 0;
+    }
+    .wq-banner_item .logos .btn {
+        padding: 17px 30px;
+    }
+    .header {
+        position: relative;
+    }
+    .wq-kit h4 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 576px) {
+    .comotomar-item::before,
+    .comotomar-item .conteudo::before {
+        display: none!important;
+    }
+    .copyright .wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-top .wrapper {
+        grid-template-columns: 1fr;
+    }
+    .footer-top ul {
+        columns: 1;
+    }
+    .logos img {
+        display: block;
+        height: auto;
+        max-width: 70px;
+        margin: 10px;
+    }
+    #garantia .wrapper {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .wq-galeria-02 {
+        margin-top: 30px;
+    }
+    .wq-kit .row {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .comotomar-wrapper::before {
+        right: 100%;
+    }
+    .comotomar-item::before {
+        left: 0%;
+        z-index: 1;
+    }
+    .comotomar-wrapper .comotomar-item:nth-child(even) .conteudo::before {
+        right: auto;
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #0e0529 transparent transparent;
+        z-index: 5;
+    }
+    .comotomar-item .conteudo {
+        width: 90%;
+    }
+    .efeitos figure:nth-child(2) {
+        left: 125px !important;
+        max-width: 190px;
+    }
+    .copyright .wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-top .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-top ul {
+        columns: 1;
+    }
+    .logos img {
+        display: block;
+        height: auto;
+        max-width: 70px;
+        margin: 10px;
+    }
+    #garantia .wrapper {
+        grid-template-columns: 1fr;
+    }
+    .wq-galeria-02 {
+        margin-top: 30px;
+    }
+    .wq-kit .row {
+        flex-direction: column-reverse;
+    }
+    #garantia .wrapper {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 1099px) and (min-width: 769px) {
+    .depoimentos-carousel-item {
+        grid-template-columns: 1fr 1fr;
+    }
+    .titulo-01 h2 {
+        font-size: 35px;
+    }
+    .titulo-01 h2 {
+        font-size: 35px;
+        max-width: 595px;
+        margin: 0 auto 10px;
+    }
+    .titulo-01 p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .comotomar-wrapper::before {
+        right: 100%;
+    }
+    .comotomar-item::before {
+        left: 0%;
+        z-index: 1;
+    }
+    .comotomar-wrapper .comotomar-item:nth-child(even) .conteudo::before {
+        right: auto;
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #0e0529 transparent transparent;
+        z-index: 5;
+    }
+    .comotomar-item .conteudo {
+        width: 90%;
+    }
+    .efeitos figure:nth-child(2) {
+        left: 125px !important;
+        max-width: 190px;
+    }
+}
+
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+    .nav-link,
+    .dropdown-toggle,
+    .dropdown-item {
+        font-size: 11px;
+    }
+    .nav-item {
+        margin-left: 10px;
+    }
+}
+
+
+/***** Monitores pequenos  *****/
+
+@media screen and (max-width: 1299px) and (min-width: 992px) {}
+
+
+/***** Monitores medios  *****/
+
+@media screen and (max-width: 1499px) and (min-width: 1300px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 1699px) and (min-width: 1500px) {}
+
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (max-width: 2500px) and (min-width: 1920px) {}
+
+@media screen and (max-width: 3000px) and (min-width: 2500px) {}
+
+
+/****Responsivo da pÃ¡gina****/
