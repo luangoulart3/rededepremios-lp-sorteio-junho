@@ -1031,7 +1031,7 @@ section {
 }
 
 .planos-item {
-	background-color: #005102;
+	background-color: #009c05;
 	border-radius: 10px;
 	padding: 40px 30px;
 	margin: 0 0 30px;
@@ -1050,7 +1050,19 @@ section {
 
 .planos-item.melhor-compra {
 	box-shadow: 0 8px 60px -6px rgb(255 255 255 / 70%);
-	background-color: #032203!important;
+	background-color: #005102;
+	animation: pulsarPlano .75s infinite .75s alternate;
+}
+
+@keyframes pulsarPlano {
+	from {
+		transform: scale(1);
+		box-shadow: 0px 0px 0px #005102;
+	}
+	to {
+		transform: scale(1.025);
+		box-shadow: 0px 0px 25px -5px #005102;
+	}
 }
 
 .planos-item h3 {
@@ -1521,7 +1533,7 @@ section {
 .wq-kit a.btn {margin-top: 30px;}
 
 .wq-kit {
-	padding: 140px 0;
+	padding: 110px 0 90px;
 	background: #f0f0f0;
 }
 
